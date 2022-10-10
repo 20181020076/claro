@@ -27,7 +27,7 @@ main {
       padding-left: 50px;
       font-family: 'Roboto', sans-serif; }
       .hero__text h1 span {
-        color: red; }
+        color: #E6150F; }
   .hero__img {
     display: flex;
     padding-top: 5px;
@@ -75,7 +75,8 @@ main {
       flex-direction: column;
       align-items: center;
       margin-top: 20px;
-      margin-bottom: 40px; }
+      margin-bottom: 40px;
+      font-family: Arial, Helvetica, sans-serif; }
       .principal__contenedor__recomendados__title {
         border: 1px solid white;
         border-radius: 50px;
@@ -98,10 +99,13 @@ main {
             background-color: purple; }
           .principal__contenedor__recomendados__catalogo__pelicula p {
             width: 100%;
-            word-wrap: normal; }
+            word-wrap: normal;
+            font-size: 1.1rem;
+            font-family: "Roboto"; }
     .principal__contenedor__pasos {
       display: flex;
       flex-direction: column;
+      font-family: Arial, Helvetica, sans-serif;
       width: 100%;
       align-items: center; }
       .principal__contenedor__pasos__title {
@@ -121,7 +125,8 @@ main {
           align-items: center;
           gap: 10px; }
     .principal__contenedor__cupon {
-      position: relative; }
+      position: relative;
+      font-family: Arial, Helvetica, sans-serif; }
       .principal__contenedor__cupon__text {
         display: flex;
         flex-direction: column;
@@ -133,12 +138,12 @@ main {
         text-align: center; }
         .principal__contenedor__cupon__text p {
           text-align: center;
-          font-size: 1.6rem; }
+          font-size: 1.4rem; }
         .principal__contenedor__cupon__text button {
           color: white;
           border-radius: 25px;
           padding: 10px;
-          background-color: red;
+          background-color: #E6150F;
           width: 200px;
           margin: 10px 30px;
           text-align: center;
@@ -150,11 +155,13 @@ main {
       justify-content: space-between;
       align-items: center;
       padding: 0 10px 10px 10px;
-      width: 100%; }
+      width: 100%;
+      font-family: Arial, Helvetica, sans-serif; }
   .principal__vigencia {
     margin: 11px 19px;
     text-align: justify;
-    font-size: 0.5rem; }
+    font-size: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif; }
 
 #exprime {
   width: 600px; }
